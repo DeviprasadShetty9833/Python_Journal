@@ -528,7 +528,7 @@ Good
 
 *Code:*
 ```python
-d = {1 : 'Hello', 3 : 'Morning'}
+d = {1 : 'Hello', 4 : 'Shrutika'}
 K, V = d.popitem()
 print(f"Key : {K}, Value : {V}")  # Deletes & returns Last Key-Value pair.
 print(d)
