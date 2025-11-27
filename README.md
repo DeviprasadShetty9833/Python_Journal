@@ -68,7 +68,7 @@ IT
 D
 ```
 
-> - Here, name stores the value 'Tanmay'.
+> - Here, name stores the value 'Arya'.
 > - branch and div is stored as 'IT' & 'D' at a time.
 > - 2nd & 3rd print() automatically inserts '\n' and  displays 'IT' & 'D' on the next line.
 
@@ -92,8 +92,8 @@ Enter your name: Vidisha
 Hello, Vidisha! Welcome!
 ```
 
-> - Here, input() prompts the user with "Enter your name:" and stores the input 'Dhanesh' of datatype string.
-> - print() displays "Hello, Dhanesh! Welcome!" using the value of name.
+> - Here, input() prompts the user with "Enter your name:" and stores the input 'Vidisha' of datatype string.
+> - print() displays "Hello, Vidisha! Welcome!" using the value of name.
 
  
 *Code:*
@@ -499,21 +499,21 @@ print(d)
 
 *Code:*
 ```python
-d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Deva'}
-del d[4]   # Deletes only Keys(LHS).
+d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Shrutika'}
+del d[3]   # Deletes only Keys(LHS).
 print(d)
 ```
 
 *Output:*
 ```html
-{1 : 'Hello', '2' : 'Good', 3 : 'Morning'}
+{1 : 'Hello', '2' : 'Good', 4 : 'Shrutika'}
 ```
 
 🔸 Using pop()
 
 *Code:*
 ```python
-d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning'}
+d = {1 : 'Hello', '2' : 'Good', 4 : 'Shrutika'}
 print(d.pop('2'))  # Deletes Keys & returns its Values.
 print(d)
 ```
@@ -521,7 +521,7 @@ print(d)
 *Output:*
 ```html
 Good
-{1 : 'Hello', 3 : 'Morning'}
+{1 : 'Hello', 4 : 'Shrutika'}
 ```
 
 🔸 Using popitem()
@@ -536,7 +536,7 @@ print(d)
 
 *Output:*
 ```html
-Key : 3, Value : Morning 
+Key : 4, Value : Shrutika 
 {1 : 'Hello'}
 ```
 
