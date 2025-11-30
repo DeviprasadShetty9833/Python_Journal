@@ -242,6 +242,8 @@ I have indentation.
 
 </details> 
 
+</td></tr>
+</table>
 
 # Data Types
 
