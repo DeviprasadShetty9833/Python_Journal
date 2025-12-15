@@ -5,9 +5,6 @@
 
 1.1 Integer
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 *Code:*
 ```python
 x = int(1)
@@ -21,12 +18,7 @@ print(type(x))
 <class 'int'>
 ```
 
-</details>
-
 1.2 Float 
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
@@ -39,14 +31,9 @@ print(type(y))
 ```html
 2.0
 <class 'float'>
-```
-
-</details> 
+``` 
 
 1.3 Complex
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
@@ -60,6 +47,5 @@ print(type(z))
 1 + 2j
 <class 'complex'>
 ```
-
-</details> 
+ 
 
