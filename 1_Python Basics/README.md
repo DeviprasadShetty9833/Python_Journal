@@ -195,7 +195,7 @@ print("Exponentiation:", a ** b)   # 10³
 Addition: 13
 Subtraction: 7
 Multiplication: 30
-Division: 3.33
+Division: 3.3333333333333333335
 Floor Division: 3
 Modulus: 1
 Exponentiation: 1000
