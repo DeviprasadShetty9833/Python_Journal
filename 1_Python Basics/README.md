@@ -167,6 +167,13 @@ I have indentation.
 
 | Operator | Description |
 |---|---| 
+| == | Equal to	| 
+| != | Not equal |
+| > | Greater than |
+| < | Less than | 
+| >= | Greater or equal | 
+| <= | Less or equal | 
+
 
 ▶️ Boolean Operators
 
