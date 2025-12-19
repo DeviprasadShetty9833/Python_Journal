@@ -303,9 +303,9 @@ Is adult? True
 | **= | Power & assign | 
 
 *Code:*
-
-x = 10  # Basic assignment
 ```python
+x = 10  # Basic assignment
+
 # Compound assignment operators
 x += 5       # x = x + 5 (now 15)
 x -= 3       # x = x - 3 (now 12)
@@ -320,9 +320,72 @@ a, b, c = 1, 2, 3
 print(a, b, c)      # 1 2 3
 ```
 
+▶️ Identity Operators
+
+- Check if two objects are the same object in memory.
+
+*Code:*
+```python
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+print("a is b:", a is b)          # False (different objects)
+print("a is c:", a is c)          # True (same object)
+print("a is not b:", a is not b)  # True
+
+# Better to use == for value comparison
+print("a == b:", a == b)          # True (same values)
+```
+
+▶️ Membership Operators
+
+- Test if a value exists in a sequence.
+
+*Code:*
+```python
+fruits = ["apple", "banana", "cherry"]
+
+print("'banana' in fruits:", "banana" in fruits)          # True
+print("'orange' not in fruits:", "orange" not in fruits)  # True
+
+# Works with strings
+text = "Hello World"
+print("'World' in text:", "World" in text)  # True
+
+# Works with dictionaries (checks keys)
+person = {"name": "Alice", "age": 30}
+print("'name' in person:", "name" in person)    # True
+print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values)
+```
+
+▶️ Bitwise Operators
+
+- Work on numbers at the binary level.
+
+*Code:*
+```python
+a = 10  # Binary: 1010
+b = 4   # Binary: 0100
+
+print("AND:", a & b)   # 0 (1010 & 0100 = 0000)
+print("OR:", a | b)    # 14 (1010 | 0100 = 1110)
+print("XOR:", a ^ b)   # 14 (1010 ^ 0100 = 1110)
+print("NOT:", ~a)      # -11 (inverts bits)
+print("Left shift:", a << 1)  # 20 (1010 → 10100)
+print("Right shift:", a >> 1) # 5 (1010 → 0101)
+```
+
+*Code:*
+```python
+# Check if number is even/odd
+num = 15
+print(f"{num} is even?", (num & 1) == 0) 
+```
+
 *Output:*
 ```html
-
+15 is even? False
 ```
 
 
