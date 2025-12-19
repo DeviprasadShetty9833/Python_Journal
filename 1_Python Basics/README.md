@@ -160,7 +160,11 @@ I have indentation.
 
 ❇️ UNARY Operators
 
+- Operators that work on a single operand.
+
 ❇️ BINARY Operators 
+
+- Operators that work on two operands.
 
 ▶️ Arithmetic Operators
 
@@ -417,6 +421,10 @@ print(f"{num} is even?", (num & 1) == 0)
 
 ❇️ TERNARY Operators
 
+- Operators that work on three operands.
+
+▶️ Conditional Operator
+
 *Code:*
 ```python
 age = 20
@@ -434,6 +442,11 @@ else:
 ```html
 Age 20: adult
 ```
+
+---
+
+▶️ Operator Precedence
+- Determines order of operations.
 
 *Code:*
 ```python
