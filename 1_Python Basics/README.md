@@ -154,7 +154,7 @@ I have indentation.
 
 ▶️ Arithmetic Operators
 
-- Used to assign and update values.
+- Used for mathematical calculations.
 
 | Operator | Description |
 |---|---|
@@ -164,6 +164,10 @@ I have indentation.
 | ** | Exponential of 2 no.s |
 | / | Quotient - Divides 2 no.s |
 | % | Remainder - Divides 2 no.s(Modulo) | 
+
+
+
+- Used to assign and update values.
 
 ▶️ Relational Operators
 
