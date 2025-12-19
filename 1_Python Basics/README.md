@@ -165,9 +165,20 @@ I have indentation.
 | / | Quotient - Divides 2 no.s |
 | % | Remainder - Divides 2 no.s(Modulo) | 
 
-
+▶️ Assignment Operators
 
 - Used to assign and update values.
+
+| Operator | Description | 
+|---|---|
+| =	| Assign | 
+| += | Add & assign | 
+| -= | Subtract & assign | 
+| *= | Multiply & assign |
+| /= | Divide & assign |
+| //= | Floor divide & assign	|
+| %= | Modulus & assign | 
+| **= | Power & assign |
 
 ▶️ Relational Operators
 
@@ -182,11 +193,16 @@ I have indentation.
 | >= | Greater or equal | 
 | <= | Less or equal | 
 
-
 ▶️ Boolean Operators
 
 | Operator | Description |
-|---|---| 
+|---|---|
+
+▶️ Boolean Operators
+
+▶️ Boolean Operators
+
+▶️ Boolean Operators
 
 </td></tr>
 </table>
