@@ -689,9 +689,15 @@ set()
 
 🔵 Frozenset
 
-<br> ❇️ Same as a set(), but frozenset() are Immutable i.e its elements cannot be modified.
-<br> ❇️⁠ It accepts iterable objects as input parameter.
-<br> ❇️ Syntax : frozenset(iterable_obj_name)
+<br> 
+
+❇️ Same as a set(), but frozenset() are Immutable i.e its elements cannot be modified.
+
+❇️⁠ It accepts iterable objects as input parameter.
+
+❇️ Syntax : frozenset(iterable_obj_name)
+
+<br>
 
 ▶️ Converting a Dictionary to Frozenset
 
