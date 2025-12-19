@@ -392,7 +392,7 @@ print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values
 
 - Work on numbers at the binary level.
 
-> Truth Table for Bitwise Operators
+> Truth Table for Bitwise Operators (0 - False, 1 - True)
 
 | a | b | AND | OR | XOR |
 |---|---|---|---|---|
