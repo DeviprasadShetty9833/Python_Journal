@@ -154,6 +154,8 @@ I have indentation.
 
 ▶️ Arithmetic Operators
 
+- Used to assign and update values.
+
 | Operator | Description |
 |---|---|
 | + | Adds 2 no.s |
