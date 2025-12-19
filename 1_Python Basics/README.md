@@ -169,7 +169,9 @@ I have indentation.
 
 ▶️ Logocal Operators
 
-▶️ Boolean Operators
+▶️ Bitwise Operators
+
+❇️ BINARY Operators 
 
 ▶️ Assignment Operators
 
@@ -198,8 +200,6 @@ I have indentation.
 | < | Less than | 
 | >= | Greater or equal | 
 | <= | Less or equal | 
-
-❇️ BINARY Operators 
 
 ❇️ TERNARY Operators
 
