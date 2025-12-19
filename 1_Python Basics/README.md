@@ -405,6 +405,8 @@ print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values
 | 0 | 1 | 0 | 1 | 1 |
 | 0 | 0 | 0 | 0 | 0 |
 
+Refer [Logic Gates]
+
 *Code:*
 ```python
 a = 10    # Binary: 1010
@@ -413,7 +415,7 @@ b = 4     # Binary: 0100
 print("AND:", a & b)             # 0 (1010 & 0100 = 0000) - Both must be True
 print("OR:", a | b)              # 14 (1010 | 0100 = 1110) - Atleast one must be True
 print("XOR:", a ^ b)             # 14 (1010 ^ 0100 = 1110) - Anyone must be True
-print("NOT:", ~a)                # -11 (inverts bits) - 0 → 1, 1 → 0  (Unary Operator)
+print("NOT:", ~a)                # -11 in 2's Complement (inverts bits) - 0 → 1, 1 → 0  (Unary Operator)
 print("Left shift:", a << 1)     # 20 (1010 → 10100) - Add 0 from RHS
 print("Right shift:", a >> 1)    # 5 (1010 → 0101) - Add 0 from LHS
 ```
