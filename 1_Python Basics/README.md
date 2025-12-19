@@ -166,9 +166,13 @@ I have indentation.
 
 *Code:*
 ```python
-print(-x)      # -5 (negation)
-print(+x)      # 5 (positive)
-print(~x)      # -6 (bitwise NOT)
+x = 3.14
+
+print(+x)      # 3.14 (positive)
+print(-x)      # -3.14 (negation)
+
+print(+-5)     # -5
+print(--5)     # 5 (double negative)
 ```
 
 ▶️ Logical unary (not)
