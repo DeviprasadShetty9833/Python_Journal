@@ -201,6 +201,17 @@ Modulus: 1
 Exponentiation: 1000
 ```
 
+*Code:*
+```python
+print("-" * 10)
+```
+
+*Output:*
+```html
+----------
+```
+
+
 ▶️ Comparison (Relational) Operators
 
 - Used to compare values → result is True / False.
@@ -363,9 +374,9 @@ print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values
 
 - Work on numbers at the binary level.
 
-COMPLETE TRUTH TABLE FOR LOGICAL OPERATORS
+TRUTH TABLE FOR BITWISE OPERATORS
 
-|   a   |   b   | NOT a | NOT b | a AND b | a OR b | a XOR b |
+| a | b | NOT a | NOT b | a AND b | a OR b | a XOR b |
 |---|---|---|---|---|---|---|
 | True  | True  | False | False |   True  |  True  |  False  |
 | True  | False | False | True  |  False  |  True  |   True  |
@@ -404,10 +415,7 @@ print(f"{num} is even?", (num & 1) == 0)
 15 is even? False
 ```
 
-
-▶️ Bitwise Operators
-
-
+print("-" * 40)
 
 ❇️ TERNARY Operators
 
