@@ -25,13 +25,23 @@
 <table>
 <tr><td>
 
-<br> ⊡⁠ Exception Handling handles errors that occur during the execution of a program. 
-<br> ⊡⁠ Exception Handling helps in preventing crashes due to errors.
+<br> 
+
+❇️ Exception Handling handles errors that occur during the execution of a program. 
+
+❇️⁠ Exception Handling helps in preventing crashes due to errors.
+
+<br>
 
 ▶️ Difference Between Errors and Exceptions
 
 🔵 Errors 
-<br> ⊡⁠ Errors are serious issues (compile time events) in your code, typically due to bad syntax or logic, that often can't be handled programmatically. They need to be fixed in the code.
+
+<br> 
+
+❇️ Errors are serious issues (compile time events) in your code, typically due to bad syntax or logic, that often can't be handled programmatically. They need to be fixed in the code.
+
+<br>
 
 Examples:
 <br> 1. SyntaxError: Missed a colon or parentheses
@@ -41,7 +51,12 @@ Examples:
 ---
 
 💛🔵 Exceptions 
-<br> ⊡⁠ Exceptions are runtime events that occur during execution and can be anticipated and handled. It can be fixed by using try, except blocks to catch and respond to exceptions gracefully.
+
+<br> 
+
+❇️ Exceptions are runtime events that occur during execution and can be anticipated and handled. It can be fixed by using try, except blocks to catch and respond to exceptions gracefully.
+
+<br>
 
 Examples:
 <br> 1. ZeroDivisionError: Dividing by zero
