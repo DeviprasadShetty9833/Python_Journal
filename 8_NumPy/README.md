@@ -7,7 +7,7 @@
 - **Tools for integrating C/C++ code**
 - **Random number generation**
 
-❇️ NumPy arrays are similar to Python lists in some ways but are distinct and optimized for numerical and scientific computing. It aims to provide an array object that is up to 50x faster than traditional Python lists.
+❇️ NumPy arrays are similar to Python lists in some ways but uses Less Memory and is 50x Faster than Python lists for numerical operations and scientific computing.
 
 <br>
 
