@@ -81,16 +81,15 @@ Shape: (2, 3, 2)
 ```python
 import numpy as np
 
-arr_0 = np.zeros((3, 3))  # row, column
+arr_0 = np.zeros((2, 2))  # 2 rows, 2 columns
 print(arr_0)
 
 ```
 
 *Output:*
 ```html
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[0. 0.]
+ [0. 0.]]
 ```
 
 🔸 Creating an array of ones
@@ -99,14 +98,15 @@ print(arr_0)
 ```python
 import numpy as np
 
-arr_1 = np.ones((2, 2))  # row, column
+arr_1 = np.ones((3, 3))  # 3 rows, 3 columns
 print(arr_1)
 ```
 
 *Output:*
 ```html
-[[1. 1.]
- [1. 1.]]
+[[1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]]
 ```
 
 🔸 Creating an array of constant 
