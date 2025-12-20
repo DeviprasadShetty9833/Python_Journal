@@ -7,7 +7,7 @@
 
 ❇️ Exception Handling handles errors that occur during the execution of a program. 
 
-❇️⁠ Exception Handling helps in preventing crashes due to errors.
+❇️⁠ It helps in preventing crashes due to errors.
 
 <br>
 
