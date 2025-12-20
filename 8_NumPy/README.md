@@ -20,6 +20,7 @@
 import numpy as np
 
 x = np.array([1, 2])
+print(x.ndim, "D array")
 print(x)
 ```
 
@@ -27,6 +28,41 @@ print(x)
 ```html
 [1 2]
 ```
+# 1D Array (Vector)
+arr1d = np.array([1, 2, 3, 4, 5])
+print("1D Array:", arr1d)
+print("Shape:", arr1d.shape)  # (5,)
+print("Dimensions:", arr1d.ndim)  # 1
+
+# 2D Array (Matrix)
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])
+print("\n2D Array:\n", arr2d)
+print("Shape:", arr2d.shape)  # (2, 3)
+print("Dimensions:", arr2d.ndim)  # 2
+
+# 3D Array
+arr3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+print("\n3D Array:\n", arr3d)
+print("Shape:", arr3d.shape)  # (2, 2, 2)
+
+1D Array: [1 2 3 4 5]
+Shape: (5,)
+Dimensions: 1
+
+2D Array:
+ [[1 2 3]
+ [4 5 6]]
+Shape: (2, 3)
+Dimensions: 2
+
+3D Array: 
+ [[[1 2]
+  [3 4]]
+
+ [[5 6]
+  [7 8]]]
+Shape: (2, 2, 2)
+
 
 🔸 Creating a 2D array (Matrix)
 
