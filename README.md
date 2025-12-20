@@ -28,7 +28,7 @@
 
 # 7) Tkinter
 
-# 🚧 8) Numpy
+# 🚧 8) [Numpy](https://github.com/rasenshuriken12/Python_Journal/blob/a56bd1c6df423e20e3be8884f73ccd77f31dd24f/8_NumPy)
 
 # 9) Pandas
 
