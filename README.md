@@ -20,7 +20,7 @@
 
 # 🚧 3) Oops Concept 
 
-# 4) Exception Handling 
+# 4) [Exception Handling](https://github.com/rasenshuriken12/Python_Journal/tree/901b752445cdbf79a72ef63d8b745c556b192906/4_Exception%20Handling)
 
 
 
