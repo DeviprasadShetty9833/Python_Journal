@@ -150,7 +150,7 @@ print(arr_diag)
 ```python
 import numpy as np
 
-arr_range = np.arange(0, 1, 2) # start, stop, step
+arr_range = np.arange(0, 10, 2) # start, stop, step
 print(arr_range)
 ```
 
