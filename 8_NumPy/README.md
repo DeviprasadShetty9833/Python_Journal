@@ -13,7 +13,7 @@
 
 ▶️ Creating a Numpy Array 
 
-🔸 Creating a 1D array
+🔸 Creating a 1D array (Vector)
 
 *Code:*
 ```python
@@ -28,7 +28,7 @@ print(x)
 [1 2]
 ```
 
-🔸 Creating a 2D array
+🔸 Creating a 2D array (Matrix)
 
 *Code:*
 ```python
