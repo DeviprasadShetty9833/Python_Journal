@@ -28,7 +28,7 @@ Examples:
 
 ---
 
-💛🔵 Exceptions 
+🚧 🔵 Exceptions 
 
 <br> 
 
