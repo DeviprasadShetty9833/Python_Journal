@@ -14,11 +14,13 @@
 | Feature	| Python List	| NumPy Array
 |---|---|---|
 | Type	| Built-in Python data structure	| Object from NumPy library |
-| Homogeneity |	Can store mixed data types |	Stores elements of the same data type |
+| Homogeneity |	Can store mixed data types |	Stores elements of the single data type |
 | Performance	| Slower for numerical computations	| Much faster for numerical operations |
-| Memory Usage	| Uses more memory	| Memory efficient |
-Mathematical Operations	Requires loops	Vectorized operations (no loops)
-Broadcasting	❌ Not supported	✅ Supported
+| Memory Usage	| Uses more memory (stores Python objects)	| Memory efficient (stores raw data) |
+| Mathematical Operations | Requires loops	| Vectorized operations (no loops) |
+| Creation | list() or [] | np.array() or specialized functions |
+| Size Flexibility | Dynamic (easy to append/remove) | Fixed size (costly to resize) |
+| Broadcasting	| Not supported	| Fully Supported |
 Multi-dimensional Support	Limited (nested lists)	Native multi-dimensional arrays
 Speed (Large Data)	Poor	Excellent
 Indexing & Slicing	Basic	Advanced slicing & masking
@@ -26,7 +28,19 @@ Use in ML / Data Science	Rarely used	Industry standard
 Dependency	No external library	Requires NumPy
 Example Operation	[1,2,3] + [4,5,6] → concatenation	array([1,2,3]) + array([4,5,6]) → element-wise addition
 
+Aspect Python Lists NumPy Arrays
+Type Heterogeneous (can mix types) Homogeneous (single data type)
+Memory Usage Higher (stores Python objects) Lower (stores raw data)
+Performance Slower (interpreted, Python loops) Faster (compiled C code, vectorized)
 
+
+Element Access Slower (object references) Faster (direct memory access)
+Mathematical Ops Limited (needs list comprehensions) Extensive (built-in vectorized ops)
+Broadcasting Not supported Fully supported
+Multi-dimensional Nested lists (inefficient) Native support (efficient)
+Memory Layout Non-contiguous (scattered) Contiguous (continuous block)
+Copy Behavior Shallow copy by default Deep copy by default (.copy())
+Functionality Basic list operations Rich mathematical functions
 
 
 <br>
