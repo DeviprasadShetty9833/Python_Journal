@@ -31,4 +31,4 @@ plt.show()
 
 *Output:*
 
-<img src="https://github.com/DeviprasadShetty9833/DSA_Journal/blob/a47067eaad6e394fe79b05f9b083903e7ac7172b/assets/DSA1.png" alt="Line Chart" width="500">
+<img src="https://github.com/rasenshuriken12/Python_Journal/blob/c7f5272304f0b71e33ee0c7f0a592e125c47d23d/10_Matplotlib/assets/LineChart.png" alt="Line Chart" width="500">
