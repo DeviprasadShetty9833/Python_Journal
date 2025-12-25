@@ -31,4 +31,4 @@ plt.show()
 
 *Output:*
 
-<img src="https://github.com/DeviprasadShetty9833/DSA_Journal/blob/a47067eaad6e394fe79b05f9b083903e7ac7172b/assets/DSA1.png" alt="O(n³)" width="240">
+<img src="https://github.com/DeviprasadShetty9833/DSA_Journal/blob/a47067eaad6e394fe79b05f9b083903e7ac7172b/assets/DSA1.png" alt="Line Chart" width="500">
