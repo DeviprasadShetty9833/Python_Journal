@@ -47,7 +47,7 @@ ax.plot(months, temp, marker='o', color='blue', linestyle='-', linewidth=2, mark
 # Add labels and title
 ax.set_xlabel('Months', fontsize=12)
 ax.set_ylabel('Temperature', fontsize=12)
-ax.set_title('Line Chart with Explanations', fontsize=14, fontweight='bold')
+ax.set_title('Temperature in Mumbai', fontsize=14, fontweight='bold')
 
 # Add value annotations above each point
 for i, value in enumerate(temp):
