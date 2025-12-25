@@ -8,6 +8,25 @@
 - It displays data points connected by a line, often used to visualize trends over time, especially with time series data.
 - It is ideal for analyzing continuous data, such as Stock prices, Temperature changes, or Website Traffic over days, months, or years.
 
+*Code:*
+```python
 
+import matplotlib.pyplot as plt
 
+# Sample data for the line chart
+x = [0, 2, 4, 6, 8]
+y = [0, 4, 16, 36, 64]
 
+# Creating the line chart
+fig, ax = plt.subplots()  
+ax.plot(x, y, marker='o', label="Data Points")
+
+# Adding labels and explanation annotations
+ax.set_title("Basic Components of Matplotlib Figure")
+ax.set_xlabel("X-Axis") 
+ax.set_ylabel("Y-Axis")  
+
+plt.show()
+```
+
+*Output:*
