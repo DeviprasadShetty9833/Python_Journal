@@ -60,7 +60,7 @@ ax.text(-0.3, temp[0], '← Starting Point', ha='left', va='center', fontsize=10
 ax.text(5.3, temp[-1], 'Ending Point →', ha='right', va='center', fontsize=10, color='red', fontweight='bold')
 
 # Add grid
-ax.grid(axis='y', linestyle='--', alpha=0.5)
+ax.grid(axis='y', linestyle='--', alpha=0.5)  #linestyle = '--' OR  'dashed'
 
 # Customize ticks
 ax.tick_params(axis='both', which='major', labelsize=10)
