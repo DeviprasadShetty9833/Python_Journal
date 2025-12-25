@@ -19,7 +19,7 @@ y = [0, 4, 16, 36, 64]
 
 # Creating the line chart
 fig, ax = plt.subplots()  
-ax.plot(x, y, marker='o', label="Data Points")
+ax.plot(x, y, marker='o')
 
 # Adding labels and explanation annotations
 ax.set_title("Basic Components of Matplotlib Figure")
