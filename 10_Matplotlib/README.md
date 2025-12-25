@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 
 # Sample data for the line chart
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
-temp = [10, 20, 15, 25, 30, 35]
+temp = [50, 60, 55, 65, 70, 80]
 
 # Create figure and axes object (Object-Oriented approach)
 fig, ax = plt.subplots(figsize=(10, 8))  # fig = figure, ax = axes
