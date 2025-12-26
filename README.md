@@ -34,11 +34,13 @@
 
 # 10) Matplotlib
 
-
----
-
-
  ![status](https://img.shields.io/badge/status-upcoming-yellow)
+
+
+ # Feedback:
+
+I’d love to hear from you!
+<br> If you encounter any [Issues](https://github.com/rasenshuriken12/Python_Journal/issues), or have [Suggestions](Issue_Template/Features_report.md) for improvements.
 
 ---
 
