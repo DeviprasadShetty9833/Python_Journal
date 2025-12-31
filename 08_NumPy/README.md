@@ -41,9 +41,9 @@
 import numpy as np
 
 x = np.array([1, 2])
-print(x.ndim, "D Array")   # Dimension
 print(x)
 print("Shape:", x.shape)   # shape returns tuple with 1 element (col,). (2,) is a TUPLE! & (2) is just an integer 2
+print(x.ndim, "D Array with ", shape[0], "elements")   # Dimension
 
 print("Array type: ", type(x))  
 
@@ -52,9 +52,9 @@ print("Shape returns: ", type(x.shape))
 
 *Output:* 
 ```html
-1D Array
  [1 2]
 Shape: (2,)
+1D Array with 2 elements
 Array type: <class 'numpy.ndarray'>
 Shape returns: <class 'tuple'>
 ```
