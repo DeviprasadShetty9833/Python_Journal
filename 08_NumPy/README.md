@@ -92,7 +92,7 @@ z = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [3, 6, 9]]])
 print(z)
 
 print("Shape:", z.shape)    # shape returns tuple with 3 elements (depth, row, col).
-print(z.ndim, "D Array with ", z.shape[0], "depth", z.shape[1], "rows and", z.shape[2], "columns")   # Dimension
+print(z.ndim, "D Array with ", z.shape[0], "planes", z.shape[1], "rows and", z.shape[2], "columns")   # Dimension
 print(f"Total elements: {z.size}") 
 ```
 
@@ -105,7 +105,7 @@ print(f"Total elements: {z.size}")
   [[7 8 9]
    [3 6 9]]]
 Shape: (2, 2, 3)
-3 D Array with  2 depth 2 rows and 3 columns
+3 D Array with  2 planes 2 rows and 3 columns
 Total elements: 12
 ```
 
@@ -473,19 +473,69 @@ import numpy as np
 x = np.array([1, 2, 3])
 y = np.array([4, 5, 6])
 
+print("1D array as Rows: ")
 print(np.stack((x, y), axis=0))   # x & y become rows
+
+print("\n1D array as Columns: ")
 print(np.stack((x, y), axis=1))   # x & y become columns. Same for axis = -1
 ```
 
 *Output:*
 ```html
+1D array as Rows: 
 [[1 2 3]
  [4 5 6]]
 
+1D array as Columns: 
 [[1 4]
  [2 5]
  [3 6]]
 ```
+
+🔸 Stacking 2D arrays 
+
+*Code:*
+```python
+import numpy as np
+
+x = np.array([[1, 2, 3], [4, 5, 6]])
+y = np.array([[7, 8, 9], [10, 11, 12]])
+
+print("2D array as Planes: ")
+print(np.stack((x, y), axis=0))
+
+print("\n2D array as Rows: ")
+print(np.stack((x, y), axis=1))
+
+print("\n2D array as Columns: ")
+print(np.stack((x, y), axis=2))
+```
+
+*Output:*
+```html
+2D array as Planes: 
+[[[ 1  2  3]
+  [ 4  5  6]]
+
+ [[ 7  8  9]
+  [10 11 12]]]
+
+2D array as Rows: 
+[[[ 1  2  3]
+  [ 7  8  9]]
+
+ [[ 4  5  6]
+  [10 11 12]]]
+
+2D array as Columns: 
+[[[ 1  7]
+  [ 2  8]
+  [ 3  9]]
+
+ [[ 4 10]
+  [ 5 11]
+  [ 6 12]]]
+
 
 
 ### ▶️ Splitting Numpy arrays
