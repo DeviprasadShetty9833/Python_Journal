@@ -332,6 +332,7 @@ print(arr)
 [ 1 5 5 4 5]
 ```
 
+### 🆚 Difference between Reshaping, Resizing, Stacking, Splitting
 
 | Operation	| Purpose	| Changes Memory?	| Changes Data?	| Returns |
 |--|--|--|--|--|
