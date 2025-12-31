@@ -120,6 +120,8 @@ Example: Book with 100 pages, 50 lines per page, 80 characters per line
 
 Shape: (100, 50, 80)
 
+<br>
+
 🔸 Creating an array of zeros(Zero / Null Matrix)
 
 *Code:*
