@@ -221,7 +221,7 @@ print(arr_range)
 ```html
 [0 2 4 6 8]
 ```
-> NOTE : name of the function is `arange()`, its not `arrange`.
+> NOTE : name of the function is `arange()`(short for "array range"), its not `arrange`.
 > - Starts at `start`, **increments by `step`**, and stops before reaching `stop`.
 > - **Excludes the `stop` value**.
 
