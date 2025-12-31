@@ -611,6 +611,59 @@ print(np.stack((x, y), axis=3))
    [ 8 80]]]]
 ```
 
+*Code:*
+```python
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print(f"Original Arrays: a = {a}, b = {b}")
+
+operations = [
+    ("stack", np.stack((a, b))),      # Creates NEW dimension
+    ("vstack", np.vstack((a, b))),    # Combines rows of data
+    ("hstack", np.hstack((a, b))),    # Combines columns of data
+    ("column_stack", np.column_stack((a, b))),    # Converts 1D arrays to 2D columns
+    ("dstack", np.dstack((a.reshape(3,1), b.reshape(3,1)))),    # Stacking along depth
+]
+
+for name, result in operations:
+    print(f"\n{name}:")
+    print(result)
+    print(f"Shape: {result.shape}")
+```
+
+*Output:*
+```html
+Original Arrays: a = [1 2 3], b = [4 5 6]
+
+stack:
+[[1 2 3]
+ [4 5 6]]
+Shape: (2, 3)
+
+vstack:
+[[1 2 3]
+ [4 5 6]]
+Shape: (2, 3)
+
+hstack:
+[1 2 3 4 5 6]
+Shape: (6,)
+
+column_stack:
+[[1 4]
+ [2 5]
+ [3 6]]
+Shape: (3, 2)
+
+dstack:
+[[[1 4]]
+
+ [[2 5]]
+
+ [[3 6]]]
+Shape: (3, 1, 2)
+```
 
 ### ▶️ Splitting Numpy arrays
 
