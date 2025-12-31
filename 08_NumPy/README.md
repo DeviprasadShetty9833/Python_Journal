@@ -497,3 +497,16 @@ print("EEI for building 3:", EEI[2])
 ```html
 EEI for building 3: 6.605538271812551
 ```
+
+*Code:*
+```python
+# Print buildings with EEI greater than 8
+print("Buildings with EEI > 8:", np_Elec[EEI > 8], "\n")
+
+# Print buildings with EEI smaller or equal to 10
+print("Buildings with EEI <= 10:", np_Elec[EEI <= 10], "\n")
+
+# Print buildings with EEI between 5 and 15
+print("Buildings with EEI between 5 and 15:", np_Elec[(EEI > 5) & (EEI < 15)], "\n")
+```
+
