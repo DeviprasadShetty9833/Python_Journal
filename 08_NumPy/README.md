@@ -45,7 +45,6 @@ print(x)
 
 print("Shape:", x.shape)   # shape returns tuple with 1 element (col,). (2,) is a TUPLE! & (2) is just an integer 2
 print(x.ndim, "D Array with ", x.shape[0], "elements")   # Dimension
-print(f"Total elements: {x.size}") 
 
 print("Array type: ", type(x))  
 print("Shape returns: ", type(x.shape))
