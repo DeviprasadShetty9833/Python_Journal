@@ -23,10 +23,8 @@
 | Size Flexibility | Dynamic (easy to append/remove) | Fixed size (costly to resize) |
 | Broadcasting	| Not supported	| Fully Supported |
 | Multi-dimensional | Nested lists (inefficient) | Native support (efficient) |
-| Speed (Large Data) |	Poor	| Excellent |
 | Indexing & Slicing	| Basic	| Advanced slicing & masking |
 | Use in ML / Data Science	| Rarely used	| Industry standard |
-| Dependency	| No external library |	Requires NumPy |
 | Example Operation |	[1,2,3] + [4,5,6] → concatenation	| array([1,2,3]) + array([4,5,6]) → element-wise addition |
 
 
