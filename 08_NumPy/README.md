@@ -392,12 +392,18 @@ Reshaped shape: (2, 3, 2)
 ```python
 import numpy as np
 
-array = np.array([1, 2, 3, 4, 5, 6, 7, 8])
-print(f"Array : {array}")
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+print(f"Array : {arr}")
 
-array.resize(2, 4)  # Permanently reshaped
-print(f"Resized Array : {array}")
+arr.resize(2, 4)   # Permanently reshaped. Make a copy to preserve original by arr.copy()
+print(f"Resized Array : {arr}")
+
+new_arr = np.resize(arr, (4, 4))   # returns new array
+print(f"New Resized Array : {new_arr}")
 ```
+
+arr = np.array([[1, 2], [3, 4]])
+print("Original:\n", arr)
 
 *Output:*
 ```html
@@ -411,25 +417,21 @@ Resized 2D Array :
 ```python
 import numpy as np
 
-array = np.array([1, 2, 3, 4, 5, 6, 7, 8])
-print(f"Array : {array}")
+arr = np.array([[1, 2], [3, 4]])
+print(f"Array : {arr}")
 
-array.resize(3, 2, 3)  # Required values 18, existing values 8
-print(f"Resized 3D Array : {array}")
+arr_copy = arr.copy()   # Make a copy to preserve original
+arr_copy.resize(3, 3)   # Required values 9, existing values 4
+print(f"Resized 2D Array : {arr_copy}")   # fills with zeros!
 ```
 
 *Output:*
 ```html
 Array : [ 1 2 3 4 5 6 7 8]
 Resized 3D Array :
-[[[ 1  2  3]
-  [ 4  5  6]]
-
- [[ 7  8  0]
-  [ 0  0  0]]
-
- [[ 0  0  0]
-  [ 0  0  0]]]
+[[ 1  2  3]
+ [ 4  0  0]
+ [ 0  0  0]]
 ```
 
 *Code:*
