@@ -524,8 +524,10 @@ Buildings with EEI between 5 and 15: [ 4456.67 23567.9 ]
 # Stack np_Elec and np_Area arrays as columns to create a 2-D array
 array_2D = np.column_stack((np_Elec, np_Area))
 
-# Print the resulting 2-D array   # The numpy.column_stack() function stacks the 1-D arrays as columns into a 2-D array.
+# The numpy.column_stack() function stacks the 1-D arrays as columns into a 2-D array.
 # The parameter(list/tuple) represents a sequence of 1-D or 2-D arrays where all of them must have the same first dimension.
+
+# Print the resulting 2-D array   
 print(array_2D)
 ```
 
