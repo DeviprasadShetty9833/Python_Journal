@@ -43,6 +43,7 @@ x = np.array([1, 2])
 print(x.ndim, "D Array")   # Dimension
 print(x)
 print("Shape:", x.shape)
+
 array_type = type(x)
 print(array_type)
 ```
