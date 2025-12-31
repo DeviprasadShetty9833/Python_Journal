@@ -461,3 +461,25 @@ Resized 3D Array :
   [ 0  0  0]]]
 ```
 
+# ❇️ Real Life Example
+
+*Code:*
+```python
+# List of Electricity consumption values and Building areas
+Elec = [4456.67, 31298, 23567.9, 12563.5]
+Area = [456.67, 1298, 3567.9, 2563.5]
+
+# Convert the lists into NumPy arrays
+np_Elec = np.array(Elec)
+np_Area = np.array(Area)
+
+# Print the NumPy arrays
+print("Electricity consumption:", np_Elec)
+print("Building areas:", np_Area)
+```
+
+*Output:*
+```html
+Electricity consumption: [ 4456.67 31298.   23567.9  12563.5 ]
+Building areas: [ 456.67 1298.   3567.9  2563.5 ]
+```
