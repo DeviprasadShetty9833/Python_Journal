@@ -43,18 +43,20 @@ import numpy as np
 x = np.array([1, 2])
 print(x.ndim, "D Array")   # Dimension
 print(x)
-print("Shape:", x.shape)   # shape returns tuple with 1 element. (2,) is a TUPLE! & (2) is just an integer 2
+print("Shape:", x.shape)   # shape returns tuple with 1 element (col,). (2,) is a TUPLE! & (2) is just an integer 2
 
-array_type = type(x)
-print(array_type)
+print("Array type: ", type(x))  
+
+print("Shape returns: ", type(x.shape))
 ```
 
-*Output:*
+*Output:* 
 ```html
 1D Array
  [1 2]
 Shape: (2,)
-<class 'numpy.ndarray'>
+Array type: <class 'numpy.ndarray'>
+Shape returns: <class 'tuple'>
 ```
 
 🔸 Creating a 2D array (Matrix)
@@ -66,7 +68,7 @@ import numpy as np
 y = np.array([[1, 2, 3], [4, 5, 6]])
 print(y.ndim, "D Array")   # Dimension
 print(y)
-print("Shape:", y.shape)   # no. of Rows, no. of Columns
+print("Shape:", y.shape)   # shape returns tuple with 2 elements (row, col).
 ```
 
 *Output:*
@@ -86,7 +88,7 @@ import numpy as np
 z = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [3, 6, 9]]])
 print(z.ndim, "D Array")   # Dimension
 print(z)
-print("Shape:", z.shape)   # no. of Rows, no. of Columns
+print("Shape:", z.shape)    # shape returns tuple with 3 elements (p, row, col).
 ```
 
 *Output:*
