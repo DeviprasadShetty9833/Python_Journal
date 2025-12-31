@@ -631,7 +631,7 @@ print(np.stack((x, y), axis=3))
 *Code:*
 ```python
 import numpy as np
-arr = np.array([1, 2, 3, 4, 5, 6])
+arr = np.arange(6)
 res = np.array_split(arr, 2)
 print(res)
 ```
