@@ -461,6 +461,37 @@ Resized 3D Array :
   [ 0  0  0]]]
 ```
 
+
+### ▶️ Stacking Numpy array
+
+*Code:*
+```python
+import numpy as np
+
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
+
+print(np.stack((x, y), axis=0))   # x & y become rows
+print(np.stack((x, y), axis=1))   # x & y become columns. Same for axis = -1
+```
+
+*Output:*
+```html
+[[1 2 3]
+ [4 5 6]]
+
+[[1 4]
+ [2 5]
+ [3 6]]
+```
+
+
+### ▶️ Splitting Numpy arrays
+
+### ▶️ Boadcasting 
+
+
+
 # ❇️ Real Life Example
 
 *Code:*
