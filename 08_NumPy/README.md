@@ -39,7 +39,7 @@
 # Import the NumPy library to use its functions and features.
 import numpy as np    # By using the alias np, you can reference Numpy functions and classes more conveniently in your code.
 
-
+# Create a NumPy array containing the values 1, 2 
 x = np.array([1, 2])
 print(x)
 
