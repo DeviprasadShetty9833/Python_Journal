@@ -695,8 +695,34 @@ print(res)
 [array([0, 1, 2, 3]), array([4, 5, 6]), array([7, 8, 9])
 ```
 
-### ▶️ Boadcasting 
+### ▶️ Broadcasting 
 
+🔸 Scalar broadcasts to any shape
+
+*Code:*
+```python
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+scalar = 10
+
+print("Array shape:", arr.shape) 
+print("Scalar shape:", np.array(scalar).shape)  # () - 0D
+
+''' Scalar 10 becomes [[10, 10, 10], [10, 10, 10]] '''
+
+result = arr + scalar
+print("\nArray + Scalar:")
+print(result)
+```
+
+*Output:*
+```html
+Array shape: (2, 3)
+Scalar shape: ()
+
+Array + Scalar:
+[[11 12 13]
+ [14 15 16]]
+```
 
 
 # ❇️ Real Life Example
