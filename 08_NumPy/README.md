@@ -91,7 +91,7 @@ import numpy as np
 z = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [3, 6, 9]]])
 print(z)
 
-print("Shape:", z.shape)    # shape returns tuple with 3 elements (p, row, col).
+print("Shape:", z.shape)    # shape returns tuple with 3 elements (depth, row, col).
 print(z.ndim, "D Array with ", z.shape[0], "depth", z.shape[1], "rows and", z.shape[2], "columns")   # Dimension
 print(f"Total elements: {z.size}") 
 ```
