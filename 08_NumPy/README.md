@@ -510,3 +510,12 @@ print("Buildings with EEI <= 10:", np_Elec[EEI <= 10], "\n")
 print("Buildings with EEI between 5 and 15:", np_Elec[(EEI > 5) & (EEI < 15)], "\n")
 ```
 
+*Output:*
+```html
+Buildings with EEI > 8: [ 4456.67 31298.  ] 
+
+Buildings with EEI <= 10: [ 4456.67 23567.9  12563.5 ] 
+
+Buildings with EEI between 5 and 15: [ 4456.67 23567.9 ]
+```
+
