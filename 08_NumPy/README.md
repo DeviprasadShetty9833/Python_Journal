@@ -55,6 +55,7 @@ print("Shape returns: ", type(x.shape))
  [1 2]
 Shape: (2,)
 1D Array with 2 elements
+
 Array type: <class 'numpy.ndarray'>
 Shape returns: <class 'tuple'>
 ```
