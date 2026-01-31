@@ -24,17 +24,41 @@
 
 ### 5) File Handling 
 
-### 🚧 6) [RegEx](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/06_RegEx)
+### 6) Packages
 
-### 7) Tkinter
+### 🚧 7) [RegEx](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/06_RegEx)
 
-=========( Data Science )=========
+### 8) Tkinter 
 
-### 🚧 8) [Numpy](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/08_NumPy)
+=========( **Web Framework** )=========
 
-### 9) Pandas
+### 9) Django
 
-### 10) Matplotlib
+### 10) Flask
+
+=========( **Data Science** )=========
+
+### 🚧 11) [Numpy](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/08_NumPy)
+
+### 12) Pandas
+
+### 13) Matplotlib
+
+### 14) Seaborn
+
+=========( **Machine Learning** )=========
+<!--
+### 15) Scikit-learn
+
+### 16) TensorFlow
+
+### 17) PyTorch
+
+### 18) Keras
+-->
+=========( **Natural Language Processing** )=========
+
+=========( **Computer Vision** )=========
 
  ![status](https://img.shields.io/badge/status-upcoming-yellow)
 
