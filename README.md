@@ -28,6 +28,8 @@
 
 ### 🚧 7) [RegEx](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/06_RegEx)
 
+=========( **GUI Framework** )=========
+
 ### 8) Tkinter 
 
 =========( **Web Framework** )=========
