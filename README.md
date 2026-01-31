@@ -16,7 +16,7 @@
 
 ### 1) [Python Basics](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/01_Python%20Basics)
 
-### 2) [Data Types](https://github.com/rasenshuriken12/Python_Journal/tree/4c9f5a1b3be7c0f8564b267a0086697a46372519/02_Data%20Types)
+### 2) [Data Types](https://github.com/rasenshuriken12/Python_Journal/tree/main/02_Data%20Types)
 
 ### 🚧 3) Oops Concept 
 
